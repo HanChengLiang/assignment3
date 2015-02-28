@@ -91,6 +91,7 @@ namespace Abstract_Planet
 
         public override string ToString()
         {
+            //returns the diameter
             return String.Format("The Planet  {0} has diameter of {1} km and mass of {2} kg", this.Name, this.Diameter, this.Mass);
         }
     }

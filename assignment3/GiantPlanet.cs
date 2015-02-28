@@ -9,10 +9,11 @@ namespace Abstract_Planet
     class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         //private instance variables 
-        private string _type;//will describes the type of giant planet like gas or fire
+        private string _type;
 
         //Constuctor
 
+        // takes a name, mass diameter and type
         public GiantPlanet(string name, double mass, double diameter, string type) :
             base(name, mass, diameter)
         {
