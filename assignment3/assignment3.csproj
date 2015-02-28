@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHabitable.cs" />
     <Compile Include="IHasMoons.cs" />
     <Compile Include="IHasRings.cs" />
     <Compile Include="Planet.cs" />
