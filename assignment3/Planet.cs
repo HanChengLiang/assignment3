@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Han Cheng Liang
+//300791705
+//A program to calculate the diameter of mars and earth
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,28 +24,28 @@ namespace Abstract_Planet
         {
             get
             {
-                return this._diameter;//read only
+                return this._diameter;
             }
         }
         public int MoonCount
         {
             get
             {
-                return this._moonCount;//read only
+                return this._moonCount;
             }
         }
         public string Name
         {
             get
             {
-                return this._name;//read only
+                return this._name;
             }
         }
         public double Mass
         {
             get
             {
-                return this._mass;//read only
+                return this._mass;
             }
         }
         public double OrbitalPeriod
